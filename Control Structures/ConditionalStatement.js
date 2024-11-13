@@ -92,7 +92,7 @@ switch (age1) {
 
 
 const actions = ["start", "stop", "pause",]; // Creating an array of non primitive data.
-let userAction = "start"; // creating a sigle variable by picking or singling out one item in the array of non primitive data created.
+let userAction = "start"; // creating a single variable by picking or singling out one item in the array of non primitive data created.
 let isLoggedIn = true;  // A variable declaring that the data is true ...BOOLEAN
 switch(true) {
     case actions.includes(userAction) && isLoggedIn: // Switch true if the userAction and isLoggedIn are both true. 
