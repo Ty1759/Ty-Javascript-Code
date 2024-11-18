@@ -49,4 +49,20 @@ while ( i = 0) i < colors1;{
     i++
 }
 
-//Have array of class list , including age, gender, name, course. using For loop and add comments.
+//ASSIGNMENT...Have array of class list , including age, gender, name, course. using For loop and add comments.
+
+//ClassDetails array: An array of student objects, where each object contains the details of a student (name, age, school, course, location, and sex).
+const ClassDetails = [
+{Name: "Oyebisi Oyelekan", Age: 35, School: "New Horizon College", Course: "FullStack Web Development", Location: "Lagos Nigeria", Sex:"Male"},
+{Name: "John Rambo", Age: 45, School: "New Horizon College", Course: "Cybersecurity", Location: "Lagos Nigeria", Sex:"Male"},
+{Name: "John Wick", Age: 55, School: "New Horizon College", Course: "UI/UX", Location: "Lagos Nigeria", Sex:"Male"},
+{Name: "Michelle Yeoh", Age: 65, School: "New Horizon College", Course: "Data Analysis", Location: "Lagos Nigeria", Sex:"Female"},
+{Name: "Maggie Q", Age: 25, School: "New Horizon College", Course: "Ethical Hacking", Location: "Lagos Nigeria", Sex:"Female"},
+{Name: "Scarlet Johansson", Age: 40, School: "New Horizon College", Course: "Product Design", Location: "Lagos Nigeria", Sex:"Female"},
+]
+
+// for loop indicates logging each student's information to the console and after which the details will be console logged for each of the student.
+for ( let i = 0; i < ClassDetails.length; i++) {
+    
+    console.log("Class Details:", "Name:",  ClassDetails[i].Name, " Age:",    ClassDetails[i].Age, " School:", ClassDetails[i].School, 
+        " Course:", ClassDetails[i].Course, " Address:", ClassDetails[i].Location, " Gender:", ClassDetails[i].Sex) }
