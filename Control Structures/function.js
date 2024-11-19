@@ -4,9 +4,12 @@
 //types of function
 // function declaration
 //function expression
+//arrow function
 
 // 1. function declaration
-    function add(a, b){
+    function add(a, b ){ //parameters or arguement
         return(a+b)
     }
-    add(2,4)
+
+    const sum =  add(2,4);
+    console.log(sum)
